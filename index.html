@@ -1,29 +1,68 @@
 <!DOCTYPE html>
 <html lang="es_AR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Productos, marcas, home, decoracion, Rolling Code">
-    <meta name="description" content="Landing page">
-    <meta name="author" content="Desarrollado por: Alvaro Morillo, Matias Lazarte, Tomas Gomez, Pablo Basso">
-    <title>Challenge 11</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-   <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Productos, marcas, home, decoracion, Rolling Code">
+  <meta name="description" content="Landing page">
+  <meta name="author" content="Desarrollado por: Alvaro Morillo, Matias Lazarte, Tomas Gomez, Pablo Basso">
+  <title>Challenge 11</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    
+
+  <a class="main__link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.8);">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Contactanos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-12">
+                <label for=""></label>
+                <h4>Nombre</h4>
+                <input type="text" name="Nombre" id="" placeholder="Nombre" style="width: 100%;">
+              </div>
+              <div class="col-12">
+                <label for=""></label>
+                <h4>Apellido</h4>
+                <input type="text" name="Apellido" id="" placeholder="Apellido" style="width: 100%;"">
+              </div>
+              <div class="col-12 col-md-12 justify-content-center">
+                <label for=""></label>
+                <h4>Email</h4>
+                <input type="email" name="Email" id="" placeholder="ejemplo@gmail.com" style="width: 100%;">
+              </div>
+              <div class="col-12 col-md-12 justify-content-center textarea">
+                <label for=""></label>
+                <h4>Comentario</h4>
+                <textarea name="Comentario" id="" style="width: 100%;height: 200px; resize: none;" placeholder="Escriba aqui...."></textarea>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -31,13 +70,9 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
 
-
-
-      <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
