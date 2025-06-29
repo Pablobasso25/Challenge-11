@@ -146,6 +146,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+.nav-item{
+    list-style: none;
+}
+
 
 @media (min-width:768px){
 
