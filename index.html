@@ -1,24 +1,118 @@
 <!DOCTYPE html>
 <html lang="es_AR">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="Productos, marcas, home, decoracion, Rolling Code">
-  <meta name="description" content="Landing page">
-  <meta name="author" content="Desarrollado por: Alvaro Morillo, Matias Lazarte, Tomas Gomez, Pablo Basso">
-  <title>Challenge 11</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Productos, marcas, home, decoracion, Rolling Code"
+    />
+    <meta name="description" content="Landing page" />
+    <meta
+      name="author"
+      content="Desarrollado por: Alvaro Morillo, Matias Lazarte, Tomas Gomez, Pablo Basso"
+    />
+    <title>Challenge 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="main__principal">
+        <nav class="main__nav container">
+          <img
+            class="main__hamburguesa"
+            src="./assets/icon-hamburger.svg"
+            alt=""
+          />
+          <img class="main__logo" src="./assets/logo.svg" alt="" />
 
-<body>
+          <ul class="main__links">
+            <li class="main__lista">
+              <a class="main__link" href="#">Home</a>
+            </li>
+            <li class="main__lista">
+              <a class="main__link" href="#">Shop</a>
+            </li>
+            <li class="main__lista">
+              <a class="main__link" href="#">About</a>
+            </li>
+            <li class="main__lista">
+              <a class="main__link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="main__textos container">
+        <div class="main__contenido">
+          <h2 class="main__titulo">Descubrí formas innovadoras de decorar</h2>
+          <p class="main__parrafo">
+            Ofrecemos calidad, comodidad y estilo inigualables a propietarios de
+            todo el país. Nuestros expertos combinan forma y funcionalidad para
+            hacer realidad su visión. Crea una habitación a tu propio estilo con
+            nuestra colección y hace de tu propiedad un reflejo de lo que amas.
+          </p>
+
+          <a class="main__boton" href="#"
+            >Shop now
+            <img class="main__arrow" src="./assets/icon-arrow.svg" alt="" />
+          </a>
+        </div>
+      </section>
+
+           <div class="main__imagen1"></div>
+
+      <section class="main__about container">
+        <div class="main__contenido">
+          <h3 class="main__titulo">Acerca de nuestros muebles</h3>
+          <p class="main__parrafo main__parrafo--about">
+            Nuestra colección multifuncional combina diseño y funcionalidad para
+            adaptarse a tu gusto personal. Haz que cada habitación sea única o
+            elige un tema coherente que exprese mejor tus intereses y te
+            inspire. Encuentra los muebles que necesitas, desde estilos
+            tradicionales hasta contemporáneos y cualquier combinación
+            intermedia. Nuestros especialistas en productos están disponibles
+            para ayudarte a crear el espacio de tus sueños.
+          </p>
+        </div>
+      </section>
+
+      <div class="main__imagen2"></div>
+
+      <div class="main__controles">
+        <img
+          class="main__controlLeft"
+          src="./assets/icon-angle-left.svg"
+          alt=""
+        />
+        <img
+          class="main__controlRight"
+          src="./assets/icon-angle-right.svg"
+          alt=""
+        />
+      </div>
+    </main>
+      
+
+
+
+
     
 
-  <a class="main__link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
 
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -65,7 +159,7 @@
   </div>
 
 
-
+ 
 
 
 
@@ -76,3 +170,4 @@
 </body>
 
 </html>
+
