@@ -203,3 +203,11 @@ body{
     
 
 }
+
+.contenedor-footer {
+    background-color: var(--Grey800);
+}
+
+.lista-desordenada {
+    list-style: none;
+}
